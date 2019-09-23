@@ -14,6 +14,9 @@
 
 ### USAGE:
 
+#### Requirements:
+* Install the necessary requirements: `pip install -r requirements.txt`.
+
 #### DATABASE AND API:
 * Setup the database (Instructions in 'database.sql' in project root).
 
