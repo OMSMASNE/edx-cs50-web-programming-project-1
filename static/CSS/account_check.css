@@ -1,0 +1,26 @@
+/*
+    Copyright (C) 2019 OM SANTOSHKUMAR MASNE. All Rights Reserved.
+    Licensed under the GNU Affero General Public License v3.0 only (AGPL-3.0-only) license.
+    See License.txt in the project root for license information.
+*/
+
+body
+{
+    text-align: center;
+    background: url(../images/pexels-photo-373409.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.account-success
+{
+    font-size: 40px;
+    color: rgb(0, 255, 98);
+}
+
+.relink
+{
+    font-size: 40px;
+    color: cyan;
+}

@@ -1,0 +1,30 @@
+<!--
+    Copyright (C) 2019 OM SANTOSHKUMAR MASNE. All Rights Reserved.
+    Licensed under the GNU Affero General Public License v3.0 only (AGPL-3.0-only) license.
+    See License.txt in the project root for license information.
+-->
+
+{% extends 'layout.html' %}
+
+{% block title %}
+    LOGGED OUT
+{% endblock %}
+
+{% block extraHead %}
+
+    <link rel="stylesheet" href="../static/CSS/account_check.css">
+
+{% endblock %}
+
+{% block body %}
+    <span class="account-success">
+        You are LOGGED OUT.
+    </span>
+
+    <br>
+    <br>
+
+    <span class="relink">
+        <a href="{{ url_for('index') }}">CLICK HERE</a> to go back to homepage.
+    </span>
+{% endblock %}

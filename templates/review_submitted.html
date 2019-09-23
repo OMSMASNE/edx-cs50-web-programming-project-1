@@ -1,0 +1,37 @@
+<!--
+    Copyright (C) 2019 OM SANTOSHKUMAR MASNE. All Rights Reserved.
+    Licensed under the GNU Affero General Public License v3.0 only (AGPL-3.0-only) license.
+    See License.txt in the project root for license information.
+-->
+
+{% extends 'layout.html' %}
+
+{% block title %}
+    REVIEW SUBMITTED
+{% endblock %}
+
+{% block extraHead %}
+
+    <link rel="stylesheet" href="../static/CSS/account_check.css">
+
+{% endblock %}
+
+{% block body %}
+    <span class="account-success">
+    {% if review_status %}
+        Your review is submitted. 
+    {% else %}
+        Review not submitted.
+        <br>
+        <br>
+        Reason = {{ message }}
+    {% endif %}
+    </span>
+
+    <br>
+    <br>
+
+    <span class="relink">
+        <a href="{{ url_for('book', isbn=book_id) }}">CLICK HERE</a> to go back.
+    </span>
+{% endblock %}
